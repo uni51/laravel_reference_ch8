@@ -1,5 +1,5 @@
 <?php
-
+// app/helper.phpの登録は、composer.jsonで行なっている
 if (!function_exists('captcha')) {
 
     /**
