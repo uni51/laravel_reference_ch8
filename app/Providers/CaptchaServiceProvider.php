@@ -13,6 +13,7 @@ use Illuminate\Support\ServiceProvider;
 class CaptchaServiceProvider extends ServiceProvider
 {
     /** @var bool $defer 遅延ロードを有効にします */
+    // 遅延ロードとは、通常時は必要なく特定処理のみを実行する場合のみ、サービスコンテナにバインドする機能
     protected $defer = true;
 
     /**

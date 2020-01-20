@@ -43,6 +43,7 @@ class Comment extends Model
     }
 
     /**
+     * ミューテータ（セッター）
      * @param $value
      */
     public function setNameAttribute($value)
